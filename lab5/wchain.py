@@ -21,7 +21,6 @@ def difference(first_word, second_word):
 
 if __name__ == "__main__":
     next_word = read_file()
-    # add first word by default
     result = [next_word.pop(0)]
 
     for word in next_word:
